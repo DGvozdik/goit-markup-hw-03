@@ -369,10 +369,6 @@ address{
 
 /* Portfolio page*/
 
-.portfolio-section{
-    padding-top: 58px;
-    padding-bottom: 118px; 
-}
 
 /* Button filter */
 
@@ -381,7 +377,7 @@ address{
     flex-wrap: wrap;
     justify-content: center;
     gap:8px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .filter-item {
@@ -431,6 +427,7 @@ address{
     padding: 20px 24px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    border-top: 0;
 }
 
 .list-title {
@@ -439,7 +436,7 @@ address{
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
-    margin-bottom: 9px;
+    margin-bottom: 4px;
 }
 
 .list-text {
